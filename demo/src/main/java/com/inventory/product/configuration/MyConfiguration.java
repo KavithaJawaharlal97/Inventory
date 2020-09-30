@@ -7,6 +7,9 @@ import org.springframework.context.annotation.Configuration;
 
 import com.inventory.product.model.Inventory;
 
+/*
+ * Auto Configuration class to return inventory instance
+ * */
 @Configuration
 @ConditionalOnMissingClass
 public class MyConfiguration {

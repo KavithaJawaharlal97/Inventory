@@ -59,7 +59,4 @@ public class Inventory {
 	public void setQuantity(int quantity) {
 		this.quantity = quantity;
 	}
-	
-	
-
 }

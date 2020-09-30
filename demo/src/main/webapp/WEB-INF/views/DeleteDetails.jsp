@@ -6,13 +6,15 @@
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Delete Id</title>
 </head>
-<body>
+<body style="background-color:grey;">
 <form action="/deleteproduct" method=get>
+<center>
 Please provide product id to be deleted
 <br>
-ID: <input type="text" name="id">
+ID: <input type="text" name="id" placeholder="Type product id here">
 <br>
 <button>DELETE PRODUCT</button>
+</center>
 </form>
 </body>
 </html>

@@ -6,25 +6,26 @@
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Update Details</title>
 </head>
-<body>
+<body style="background-color:grey;">
 
 <form action="/updateproducts" method=post>
+<center>
 Provide the ID for which the product details need to be updated
 <br>
 
-ID: <input type="text" name="id" />
+ID: <input type="text" name="id" placeholder="Type product id here"/>
 <br>
-Name: <input type="text" name="name" />
-<br>
-
-Price: <input type ="text" name="price"/>
+Name: <input type="text" name="name" placeholder="Type product name here"/>
 <br>
 
-Quantity: <input type="text" name="quantity" />
+Price: <input type ="text" name="price" placeholder="Type product price here"/>
+<br>
+
+Quantity: <input type="text" name="quantity" placeholder="Type product quantity here"/>
 <br>
 <button>UPDATE PRODUCT</button>
 
-
+</center>
 </form>
 </body>
 </html>

@@ -6,6 +6,9 @@ import com.fasterxml.jackson.annotation.JsonAnyGetter;
 import com.fasterxml.jackson.annotation.JsonAnySetter;
 import com.fasterxml.jackson.annotation.JsonInclude;
 
+/*
+ * This is a class to set & get the message for custom endpoint
+ */
 @JsonInclude(JsonInclude.Include.NON_EMPTY)
 public class CustomHealth {
 

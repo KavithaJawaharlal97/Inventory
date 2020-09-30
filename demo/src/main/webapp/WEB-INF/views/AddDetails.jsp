@@ -6,14 +6,15 @@
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Add Details</title>
 </head>
-<body>
+<body style="background-color:grey;">
 <form action="/addproducts" method=post>
-Name: <input type="text" name="name" />
-Price: <input type ="text" name="price"/>
-Quantity: <input type="text" name="quantity" />
-
+<center>
+Name: <input type="text" name="name" placeholder="Type product name here"/><br>
+Price: <input type ="text" name="price" placeholder="Type product price here"/><br>
+Quantity: <input type="text" name="quantity" placeholder="Type product quantity here"/>
+<br>
 <button>ADD PRODUCT</button>
-
+</center>
 
 </form>
 </body>

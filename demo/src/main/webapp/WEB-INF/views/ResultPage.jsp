@@ -4,10 +4,11 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Insert title here</title>
+<title>Result</title>
 </head>
-<body>
+<body style="background-color:grey;">
 ${message}
-<a href="/products"></a>
+<br><br><br>
+<a href="/products">View Products</a>
 </body>
 </html>
